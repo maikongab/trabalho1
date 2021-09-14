@@ -1,0 +1,21 @@
+*{
+    
+}
+#menu{
+    height: 150px;
+    background: linear-gradient(180deg, rgba(84, 167, 208, 0.6) 99.99%, rgba(84, 167, 208, 0) 100%), linear-gradient(180deg, #8257E5 0%, rgba(130, 87, 229, 0) 100%);
+}
+
+#menu  ul{
+    list-style: none;
+}
+
+#menu  li{
+    display: inline-block;
+}
+
+#menu a{
+    color: #000000;
+    text-decoration: none;
+}
+
