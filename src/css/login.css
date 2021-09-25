@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.corpo{
+    
+    width:100%;
+    height:100%;
+
+}
+
+.logo{
+    
+    background-color: #54A7D0;
+    width: 50vw;
+    height: 55vw;
+    text-align: center;
+    
+}
+
+.logo img{
+    padding-top: 25%;
+
+}
+
+.login{
+    float: left; 
+    width:50vw;
+    height:50vw;
+    align-items: space-between;
+}
+
