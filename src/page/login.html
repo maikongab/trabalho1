@@ -1,28 +1,37 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="pt-br">
 <head>
-        <meta charset="UTF-8"/> 
-        <title>Login</title>
-        <link rel="stylesheet" href="/src/css/login.css">
+	<title> teste</title>
+	<meta charset=“utf-8”>
+	<link rel="stylesheet" href="/src/css/login.css">
 </head>
 <body>
-    <div id="corpo">
-        <div class="logo">
-            <img src="/src/img/logo_do_site2.png" alt="logo"/>
-        </div>
-        <div id="login">
-            <form class="login" method="get" action="">
-
-                <label for="user">User</label>
-                <input type="email" id="user" placeholder="exmplo@gmail.com"/>
-
-                <label for="password">Password</label>
-                <input type="password" id="password" />
-
-                <input type="submit" name="login" />
-
-            </form>
-        </div>
-</div>
+	<div class="corpo">
+		<div class="logo">
+			<div>
+				<img src="/src/img/logo_do_site2.png">
+			</div>
+		</div>
+		<div class="login">
+			<div>
+				<form  method="get" action="enviar.json" >
+					<h1>Login</h1>				
+					<label for="user">User</label>
+					<input type="email" name="user" id="user" placeholder=" exemplo@mail.com"/>
+		
+					<label for="Password">Password</label>
+					<input type="password" id="password" placeholder=" password"/>	
+		
+					<input type="submit" name="enviar" id="enviar"/>
+				</form>
+				<div class="ancora">
+					<a href="/src/page/createUser.html">Cadastrar</a>
+					<a href="/src/page/esquecer.html">esqueci a senha</a>
+				</div>
+			</div>
+			
+		</div>
+		
+	</div>
+	
 </body>
-</html>

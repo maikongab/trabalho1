@@ -1,0 +1,33 @@
+.item{
+    width: 256px;
+    height: 275px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 15px;
+}
+.conteudo{
+    margin: 10px;
+}
+.conteudo h4{
+    margin-bottom: 5px;
+}
+.conteudo :nth-child(3){
+    color: #24ef7f;
+}
+.conteudo a{
+    text-decoration: none;
+    color: #000000;
+    float: right;
+    margin-right: 10px;
+}
+.imag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imag img{
+    width: 150px;
+    height: 150px;
+    margin: 4px;
+}

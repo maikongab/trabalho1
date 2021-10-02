@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<title> teste</title>
+ <meta charset=“utf-8”>
+</head>
+	<style>
+	*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 	}
+	 @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+	 body{
+		background-color: #0081c1;
+	 }
+	 #corpo{
+		 width: 100vw;
+		 height: 100vh;
+		 display: flex;
+		 justify-content: center;
+		 align-items: center;
+	 }
+	 .formulario{
+        width: 280px;
+    }
+	.formulario img{
+		margin-bottom: 50px;
+	}
+    .formulario legend{
+        text-align: center;
+		margin: 50px;
+		font-family: 'Italianno',sans-serif;
+		font-size: 1.2rem;
+    }
+	.formulario input{
+        width: 272px;
+        height: 35px;
+        border-radius: 20px;
+		background-color: #AADFFA;
+        margin-bottom: 15px;
+        
+	}
+	.formulario input[type="submit"]{
+		background-color: #05496B;
+		width: 100px;
+		height: 40px;
+		align-items: center;
+        margin-top: 5vh;
+        margin-left: 4.5vw;
+	}
+	</style>
+</head>
+<body>
+	<div id="corpo">
+			<form action="" method="post" class="formulario">
+				<img src="/src/img/logo_do_site4.png"/>
+				<legend>Cadastro de Usuario</legend>
+
+				<label for="username">nome</label>
+				<input type="text" name="user" id="username">
+
+				<label for="email">email</label>
+				<input type="email" name="email" id="email" placeholder="exemplo@gmail.com"/>
+
+				<label for="password">Password</label>
+				<input type="password" name="password" id="password">
+
+				<input type="submit"  name="cadastar">
+			</form>
+	</div>
+	
+</body>
