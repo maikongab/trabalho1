@@ -24,10 +24,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
-
 .imag img{
     width: 150px;
     height: 150px;
-    margin: 4px;
+    margin: 10px;
 }
